@@ -1,13 +1,13 @@
 # Projeto de Poo
 ## Índice
-- [Descrição-curta](#Descricão-curta)
+- [Descrição curta](#Descricão-curta)
 - [Pré-Requisitos](#Pré-Requisitos)
 - [Instalção](#Instalação)
 - [License](#License)
 - [Exemplo-de-Uso](#Exemplo-de-Uso)
-- [Animação-de-Exemplo](#Animação-de-Exemplo)
+- [Animação de Exemplo](#Animação-de-Exemplo)
 - [Contato](#Contato)
-- [Outros-projetos](#Outros-projetos)
+- [Outros Projetos](#Outros-projetos)
 
 ## Descrição curta
  Este projeto é uma simulação de um jogo da velha, onde dois jogadores competem: um humano e outro controlado pelo computador. Ambos os jogadores interagem com o jogo fornecendo as coordenadas de suas jogadas. O jogo termina quando uma das condições de vitória é atendida, resultando em uma vitória, ou quando todas as casas estão ocupadas, resultando em um empate .
