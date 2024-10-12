@@ -17,9 +17,9 @@ Além de ser simples e divertido, essa simulação é um ótimo passatempo para 
 ## Pré-Requisitos
 Este projeto requer o Python na versão 3.6 ou superior para funcionar corretamente, além das bibliotecas indicadas no setup.py,Além disso é preciso ter istalado na sua máquina as seguintes ferramentas:
 
-+[Git](https://git-scm.com)
-+[VScode](https://code.visualstudio.com/) 
-+[python]( python.org.)
+-[Git](https://git-scm.com)
+-[VScode](https://code.visualstudio.com/) 
+-[python]( python.org.)
 
 ## Licença
 
