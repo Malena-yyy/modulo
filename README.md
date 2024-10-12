@@ -15,7 +15,7 @@
 Além de ser simples e divertido, essa simulação é um ótimo passatempo para quem gosta de resolver problemas de lógica e estratégia.
 
 ## Pré-Requisitos
-Este projeto requer o Python na versão 3.6 ou superior para funcionar corretamente, além das bibliotecas indicadas no setup.py,Além disso é preciso ter istalado na sua máquina as seguintes ferramentas:
+Este projeto requer **o Python na versão 3.6 ou superior para funcionar corretamente, além das bibliotecas indicadas no setup.py,Além disso é preciso ter istalado na sua máquina as seguintes ferramentas**:
 
 * [Git](https://git-scm.com) -> Controle de versão e clonagem de repositório.
 * [VScode](https://code.visualstudio.com/) -> Editor recomendado, não é necessariamente uma pré-requisto.
