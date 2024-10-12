@@ -41,8 +41,8 @@ pip install -e .
 
 ```
 ## Exemplo de Uso
-from meu_modulo.jogo_da_velha import JogoVelha
-jogo= JogoVelha()
+- from meu_modulo.jogo_da_velha import JogoVelha
+- jogo= JogoVelha()
 
 ## Animação de Exemplo
 
