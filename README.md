@@ -27,7 +27,7 @@ Este projeto requer **o Python na versão 3.6 ou superior para funcionar correta
 O projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Instalação
-```
+
 -[X] clone este repositorio:
 
 git clone https://github.com/Malena-yyy/trab2_poo.git
@@ -40,7 +40,7 @@ cd trab2_poo
 
 pip install -e .
 
-```
+
 ## Exemplo de Uso
 - from meu_modulo.jogo_da_velha import JogoVelha
 - jogo= JogoVelha()
