@@ -28,15 +28,15 @@ O projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE)
 
 ## Instalação
 ```
-1. clone este repositorio:
+-[X] clone este repositorio:
 
 git clone https://github.com/Malena-yyy/trab2_poo.git
 
-2.Navegue até o diretório do projeto
+-[X] Navegue até o diretório do projeto
 
 cd trab2_poo
 
-3.Instale o projeto e suas depedências com o pip
+-[X] Instale o projeto e suas depedências com o pip
 
 pip install -e .
 
