@@ -42,9 +42,10 @@ O projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE)
 
 
 ## Exemplo de Uso
-- from meu_modulo.jogo_da_velha import JogoVelha
-- jogo= JogoVelha()
-
+"""
+from meu_modulo.jogo_da_velha import JogoVelha
+jogo= JogoVelha()
+""'
 ### Animação de Exemplo
 
 ![gif](https://github.com/user-attachments/assets/511d015e-be24-4a17-98df-2f2149a93a00)
