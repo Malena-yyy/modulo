@@ -5,6 +5,7 @@
 - [Instalção](#Instalação)
 - [License](#License)
 - [Exemplo-de-Uso](#Exemplo-de-Uso)
+- [Animação-de-Exemplo](#Animação-de-Exemplo)
 - [Contato](#Contato)
 - [Outros-projetos](#Outros-projetos)
 
@@ -43,9 +44,9 @@ pip install -e .
 from meu_modulo.jogo_da_velha import JogoVelha
 jogo= JogoVelha()
 
-![Animação de Exemplo](assents/gif.gif)
+## Animação de Exemplo
+![Animação-de-Exemplo](./assents/gif.gif)
 
- 
 ## Contato
 Conhece mais sobre esse desenvolvedor no link:
 https://www.instagram.com/_malena.milani?igsh=MWNoYWV5MjBoYXIwYw==

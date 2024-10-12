@@ -7,5 +7,6 @@ setup(
     author='Malena Milani dos Santos',
     python_requires='>=3.6',
     install_requires=['numpy','random'],
+    url= 'https://github.com/Malena-yyy/modulo.git',
     packages=find_packages(),
 )
