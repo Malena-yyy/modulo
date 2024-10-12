@@ -9,16 +9,16 @@
 - [Outros-projetos](#Outros-projetos)
 
 ## Descrição curta
- Este projeto é uma simulação de um jogo da velha, onde dois jogadores competem: um humano e outro controlado pelo computador. Ambos os jogadores interagem com o jogo fornecendo as coordenadas de suas jogadas. O jogo termina quando uma das condições de vitória é atendida, resultando em uma vitória, ou quando todas as casas estão ocupadas, resultando em um empate.
+ Este projeto é uma simulação de um jogo da velha, onde dois jogadores competem: um humano e outro controlado pelo computador. Ambos os jogadores interagem com o jogo fornecendo as coordenadas de suas jogadas. O jogo termina quando uma das condições de vitória é atendida, resultando em uma vitória, ou quando todas as casas estão ocupadas, resultando em um empate .
 
 Além de ser simples e divertido, essa simulação é um ótimo passatempo para quem gosta de resolver problemas de lógica e estratégia.
 
 ## Pré-Requisitos
 Este projeto requer o Python na versão 3.6 ou superior para funcionar corretamente, além das bibliotecas indicadas no setup.py,Além disso é preciso ter istalado na sua máquina as seguintes ferramentas:
 
-[Git](https://git-scm.com)<br/> -Controle de versão e clonagem de repositório
-[VScode](https://code.visualstudio.com/) -Editor recomendado, não é necessariamente uma pré-requisto
-[python]( python.org.)<br/> - Linguagem usada no projeto
+[Git](https://git-scm.com)<br/> -Controle de versão e clonagem de repositório.
+[VScode](https://code.visualstudio.com/) -Editor recomendado, não é necessariamente uma pré-requisto.
+[python]( python.org.)<br/> - Linguagem usada no projeto.
 
 ## Licença
 
