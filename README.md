@@ -52,6 +52,9 @@ jogo= JogoVelha()
 Conhece mais sobre esse desenvolvedor no link:
 https://www.instagram.com/_malena.milani?igsh=MWNoYWV5MjBoYXIwYw==
 
+![giphy](https://github.com/user-attachments/assets/f9873785-4382-4b95-a011-b19320ff0de9)
+
+
 ## Outros projetos
 Explore a conta desse desenvolvedor para conhecer mais projetos no link:
 https://github.com/Malena-yyy
