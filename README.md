@@ -4,7 +4,7 @@
 - [Pré-Requisitos](#Pré-Requisitos)
 - [Instalção](#Instalação)
 - [License](#License)
-- [Exemplo-de-Uso](#Exemplo-de-Uso)
+- [Exemplo de Uso](#Exemplo-de-Uso)
 - [Animação de Exemplo](#Animação-de-Exemplo)
 - [Contato](#Contato)
 - [Outros Projetos](#Outros-projetos)
