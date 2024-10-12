@@ -4,23 +4,40 @@ import random
 import numpy as np
 
 class JogoVelha:
+    """
+    Classe principal que representa e roda o jogo
+    """
     def __init__(self) -> None:
+        """
+        Inicializa o tabuleiro, jogadores e o turno
+
+        Returns:
+        None: a função retorna nada
+        """
         self.tabuleiro = Tabuleiro()
         self.jogador_hum = JogadorHumano('X')
         self.jogador_maq = JogadorComputador('O', self.tabuleiro)
         self.turno = 0
     
-    def jogar(self) -> None:
+    def jogar(self) -> str:
+        """
+        Laço que exibe o tabuleiro e verifica se houve uma vitória ou empate,caso
+        contrário contiunua fazendo ''jogadas'' até que haja ou uma vitório ou
+        empate
+
+        Returns:
+        str: a função retorna uma mensagem de empate ou vitória
+        """
         while True:
             self.tabuleiro.imprimir_tabuleiro()
             resultado = self.fim_de_jogo()
             
-            if resultado:
-                print(f'O vencedor é {self.jogador_atual().simbolo}')
+            if resultado == True:
+                return f'O vencedor é {self.jogador_atual().simbolo}'
                 break
             
-            elif self.tabuleiro_cheio():
-                print('Empate')
+            elif self.tabuleiro_cheio() == True:
+                return f'Empate'
                 break
             
             else:
@@ -30,6 +47,13 @@ class JogoVelha:
                 self.turno += 1
     
     def fim_de_jogo(self) -> bool:
+        """
+        Função verifica se as codições de vitoria foram satisfeitas
+
+        Returns:
+        bool: a função retorna um valor booleano sendo verdadeiro caso uma das condições
+        forem satisfeita ou falso caso nenhuma seja
+        """
         jogador = self.jogador_atual()
         casas = self.tabuleiro.casas
         
@@ -51,7 +75,13 @@ class JogoVelha:
         return False
     
     def tabuleiro_cheio(self) -> bool:
-        # Verifica se todas as casas estão ocupadas
+        """
+        Verifica se todas as casas estão oucupadas
+
+        Returns:
+        bool: a função retorna um valor booleano, verdadeiro se todas as casa
+        tiverem oucupadas ou false caso contrário
+        """
         for linha in self.tabuleiro.casas:
             for entrada in linha:
                 if entrada == '.':
@@ -59,6 +89,9 @@ class JogoVelha:
         return True  
 
     def jogador_atual(self):
+        """
+        Determina a vez de jogar
+        """
         if self.turno % 2 == 0:
             return self.jogador_hum
         else:
