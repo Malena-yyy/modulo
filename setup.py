@@ -1,12 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Jogo_da_velha',
-    version='0.1.0',
-    description='Simulação de um jogo da velha',
-    author='Malena Milani dos Santos',
-    python_requires='>=3.6',
-    install_requires=['numpy','random'],
-    url= 'https://github.com/Malena-yyy/modulo.git',
-    packages=find_packages(),
+    name="finance_backend", 
+    version="0.1.0",  
+    description="Backend de um app de finanças",
+    long_description=open("README.md").read(),
+    license="MIT", 
+    author="Malena Milani dos Santos, Wangleycia Lorena Silva de Oliveira",
+    python_requires=">=3.8", 
+    install_requires=[], 
+    url="https://github.com/Project-OOP-2/Project-2.git",
+    packages=find_packages(), 
+
 )
